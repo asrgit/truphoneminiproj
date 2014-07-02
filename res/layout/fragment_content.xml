@@ -1,0 +1,38 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/fragment_padding_style">
+    
+    <Button android:id="@+id/switch_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+		android:text="@string/switch_activity"
+		style="@style/fragment_padding_style"/>
+    
+    <TextView 
+        android:id="@+id/counter_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/counter_text_style"/>    
+
+    <TextView 
+        android:id="@+id/counter_text_reverse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/counter_text_style"
+        android:text="10:23"/>    
+    
+    <Button android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:layout_marginTop="20dp"
+    	android:layout_marginBottom="20dp"     
+		android:text="@string/exit"
+		style="@style/fragment_padding_style"/>
+    
+</LinearLayout>

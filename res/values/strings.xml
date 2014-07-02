@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TruphoneMiniProj</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="delete">Delete</string>
+    <string name="view_seconds">View seconds</string>
+    <string name="switch_activity">Switch Activity</string>
+</resources>
